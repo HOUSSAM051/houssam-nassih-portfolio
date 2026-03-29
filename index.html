@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houssam Nassih - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">HN</div>
+                <ul class="nav-menu">
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#education">Formation</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Houssam Nassih</h1>
+                    <h2>Ingénieur en Réseaux et Informatique</h2>
+                    <p>Étudiant en 4ème année en Ingénierie des Réseaux et IT (IA & Data) à l'EMSI</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn primary">Me contacter</a>
+                        <a href="https://github.com/HOUSSAMO51" target="_blank" class="btn secondary">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-circle">
+                        <img src="assets/img/profile.jpg" alt="Houssam Nassih" class="profile-img" onerror="this.src='assets/img/profile.png'">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>À propos de moi</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Passionné par l'innovation et la résolution de problèmes, je suis un étudiant curieux, rigoureux et créatif. Je recherche constamment de nouveaux défis pour développer mes compétences techniques et humaines (travail d'équipe, communication, adaptabilité).</p>
+                        <div class="quick-info">
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Casablanca, Sidi Maarouf</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+212 701971645</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>nassihhoussam073@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fab fa-linkedin"></i>
+                                <a href="https://www.linkedin.com/in/houssam-nassih-787991346/" target="_blank">Houssam Nassih</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <h2>Formation</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022 - 2026</div>
+                        <div class="timeline-content">
+                            <h3>École Marocaine des Sciences de l'Ingénieur (EMSI)</h3>
+                            <p>4ème année en Ingénierie des Réseaux et IT (IA & Data)</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2021 - 2022</div>
+                        <div class="timeline-content">
+                            <h3>Baccalauréat Sciences Physiques</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Projets Académiques</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-dumbbell"></i>
+                        </div>
+                        <h3>Gestion d'une salle de sport</h3>
+                        <p class="project-date">2024</p>
+                        <p>Développement d'une application web en PHP avec base de données pour gérer les abonnements, utilisateurs et services.</p>
+                        <div class="project-tags">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>Web</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3>Application de gestion de bibliothèque</h3>
+                        <p class="project-date">2024</p>
+                        <p>Développement d'une application web avec HTML, CSS et JavaScript. Focus sur le front-end avec gestion dynamique du contenu.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-pills"></i>
+                        </div>
+                        <h3>Plateforme de gestion de pharmacie</h3>
+                        <p class="project-date">2025</p>
+                        <p>Développement d'une application web avec Django (Python), incluant la gestion des stocks, ordonnances et utilisateurs.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <h3>Application Desktop (Python & IA)</h3>
+                        <p class="project-date">2025</p>
+                        <p>Développement d'une application desktop intégrant des algorithmes d'IA pour résoudre des problèmes concrets.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Intelligence Artificielle</span>
+                            <span>Desktop</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <h3>Stage observation Sa.global Morocco</h3>
+                        <p class="project-date">2025</p>
+                        <p>Réalisation d'une application Power Apps pour les visiteurs médicaux.</p>
+                        <div class="project-tags">
+                            <span>Power Apps</span>
+                            <span>Stage</span>
+                            <span>Microsoft</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Compétences</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Langues</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <span>Français</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar" style="width: 100%"></div>
+                                </div>
+                                <span>Courant</span>
+                            </div>
+                            <div class="skill-item">
+                                <span>Anglais</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar" style="width: 70%"></div>
+                                </div>
+                                <span>Intermédiaire</span>
+                            </div>
+                            <div class="skill-item">
+                                <span>Arabe</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar" style="width: 100%"></div>
+                                </div>
+                                <span>Maternel</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Technologies</h3>
+                        <div class="tech-grid">
+                            <div class="tech-category">
+                                <div class="tech-header">
+                                    <i class="fas fa-globe"></i>
+                                    <h4>Web & Frontend</h4>
+                                </div>
+                                <ul class="tech-list">
+                                    <li>React</li>
+                                    <li>Vue.js</li>
+                                    <li>Angular</li>
+                                    <li>Tailwind</li>
+                                    <li>JavaScript</li>
+                                    <li>Firebase</li>
+                                </ul>
+                            </div>
+
+                            <div class="tech-category">
+                                <div class="tech-header">
+                                    <i class="fas fa-coffee"></i>
+                                    <h4>Backend & Java</h4>
+                                </div>
+                                <ul class="tech-list">
+                                    <li>Java Avancé</li>
+                                    <li>Spring Boot</li>
+                                    <li>Laravel</li>
+                                    <li>Jakarta EE</li>
+                                    <li>Architecture MVC/DAO</li>
+                                </ul>
+                            </div>
+
+                            <div class="tech-category">
+                                <div class="tech-header">
+                                    <i class="fas fa-chevron"></i>
+                                    <h4>Python & Data Eng</h4>
+                                </div>
+                                <ul class="tech-list">
+                                    <li>Python</li>
+                                    <li>FastAPI</li>
+                                    <li>Pipeline ETL</li>
+                                    <li>Unix / Linux</li>
+                                    <li>Big Data</li>
+                                </ul>
+                            </div>
+
+                            <div class="tech-category">
+                                <div class="tech-header">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <h4>Mobile & API</h4>
+                                </div>
+                                <ul class="tech-list">
+                                    <li>React Native</li>
+                                    <li>Expo</li>
+                                    <li>API REST</li>
+                                    <li>Microservices</li>
+                                    <li>Postman</li>
+                                </ul>
+                            </div>
+
+                            <div class="tech-category">
+                                <div class="tech-header">
+                                    <i class="fas fa-database"></i>
+                                    <h4>Bases de Données</h4>
+                                </div>
+                                <ul class="tech-list">
+                                    <li>Oracle</li>
+                                    <li>MySQL / SQL Server</li>
+                                    <li>MongoDB</li>
+                                    <li>Redis</li>
+                                    <li>Cassandra</li>
+                                </ul>
+                            </div>
+
+                            <div class="tech-category">
+                                <div class="tech-header">
+                                    <i class="fas fa-cogs"></i>
+                                    <h4>Outils & DevOps</h4>
+                                </div>
+                                <ul class="tech-list">
+                                    <li>Git / GitHub</li>
+                                    <li>Maven</li>
+                                    <li>Docker</li>
+                                    <li>HBase</li>
+                                    <li>Déploiement</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Compétences Personnelles</h3>
+                        <div class="soft-skills">
+                            <div class="soft-skill-item">
+                                <i class="fas fa-lightbulb"></i>
+                                <span>Innovation</span>
+                            </div>
+                            <div class="soft-skill-item">
+                                <i class="fas fa-puzzle-piece"></i>
+                                <span>Résolution de problèmes</span>
+                            </div>
+                            <div class="soft-skill-item">
+                                <i class="fas fa-users"></i>
+                                <span>Travail d'équipe</span>
+                            </div>
+                            <div class="soft-skill-item">
+                                <i class="fas fa-comments"></i>
+                                <span>Communication</span>
+                            </div>
+                            <div class="soft-skill-item">
+                                <i class="fas fa-sync"></i>
+                                <span>Adaptabilité</span>
+                            </div>
+                            <div class="soft-skill-item">
+                                <i class="fas fa-search"></i>
+                                <span>Curiosité</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <div class="container">
+                <h2>Certifications</h2>
+                <div class="certifications-content">
+                    <div class="certification-item">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>Certifications LinkedIn</h3>
+                        <p>Consultez mes certifications sur mon profil LinkedIn</p>
+                        <a href="https://www.linkedin.com/in/houssam-nassih-787991346/details/certifications/" target="_blank" class="btn secondary">
+                            Voir les certifications
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Téléphone</h3>
+                                <p>+212 701971645</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>nassihhoussam073@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Localisation</h3>
+                                <p>Casablanca, Sidi Maarouf</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h3>LinkedIn</h3>
+                                <a href="https://www.linkedin.com/in/houssam-nassih-787991346/" target="_blank">Houssam Nassih</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h3>GitHub</h3>
+                                <a href="https://github.com/HOUSSAMO51" target="_blank">HOUSSAMO51</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Votre email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" placeholder="Sujet" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn primary">Envoyer le message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Houssam Nassih. Tous droits réservés.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/houssam-nassih-787991346/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/HOUSSAMO51" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
