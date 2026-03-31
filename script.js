@@ -140,9 +140,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
             
-            // Simulate form submission (in real implementation, you'd send to a server)
-            showNotification('Message envoyé avec succès! Je vous répondrai dès que possible.', 'success');
-            this.reset();
+            // Send email using mailto
+            const subject = encodeURIComponent(data.subject);
+            const body = encodeURIComponent(`Nom: ${data.name}\nEmail: ${data.email}\n\nMessage:\n${data.message}`);
+            const mailtoLink = `mailto:nassihhoussam073@gmail.com?subject=${subject}&body=${body}`;
+            
+            // Open email client
+            window.location.href = mailtoLink;
+            
+            showNotification('Votre client email s\'ouvre pour envoyer le message', 'success');
         });
     }
 
