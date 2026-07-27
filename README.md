@@ -104,7 +104,7 @@ Mettez à jour les informations dans les sections correspondantes du fichier `in
 - **Téléphone** : +212 701971645
 - **Email** : nassihhoussam073@gmail.com
 - **LinkedIn** : [Houssam Nassih](https://www.linkedin.com/in/houssam-nassih-787991346/)
-- **GitHub** : [HOUSSAMO51](https://github.com/HOUSSAMO51)
+- **GitHub** : [NassihHoussam](https://github.com/NassihHoussam)
 
 ## 📝 Licence
 
